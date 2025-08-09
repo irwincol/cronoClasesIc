@@ -20,7 +20,10 @@ public class Estudiante {
         for (int i = 0; i < materias.length; i++) {
             materias[i] = "";
         }
-    }
+
+    //     POR AQUI ME ENCONTRE ESTA FORMA DE AGREGAR LAS MATERIAS CON UN ARREGLO, PERO DEBO ESTUDIARLA MAS, LA OTRA FORMA DE INCLUIR
+    //     LAS MATERIAS QUE PENSE ERA CON ATRIBUBOS DISTINTOS, POR EJEMPLO, PRIVATE STRING MATERIAUNA , PRIVATE ESTRING MATERIA2 Y ASI..
+    // }
 
     // Getters
     public String getId() { return id; }
